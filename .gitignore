@@ -1,0 +1,4 @@
+venv/
+*.pyc
+*.svg
+.mypy_cache/
