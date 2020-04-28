@@ -33,6 +33,10 @@ adb backup -f freeotp-backup.ab -apk org.fedorahosted.freeotp
 python backup_freetop_codes.py freeotp-backup.ab
 ```
 
+## Contributors 
+
+- [Dezső BICZÓ](https://github.com/mxr576)
+
 ## Credits
 
 - [The FreeOTP Android App](https://freeotp.github.io/)
