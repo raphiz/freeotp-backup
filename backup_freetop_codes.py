@@ -34,7 +34,7 @@ for token in xmltree.findall('string'):
               'digits': token["digits"],
               'period': token["period"],
               'counter': token["counter"],
-              'issuer': token["issuerInt"]
+              'issuer': token.get("issuerInt", token["issuerExt"])
               }
     paramsStr = '&'.join([f'{k}={v}' for (k, v) in params.items()])
     url = f'otpauth://totp/{issuerExt}:{label}?{paramsStr}'
