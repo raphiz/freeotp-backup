@@ -35,6 +35,7 @@ python backup_freetop_codes.py freeotp-backup.ab
 
 ## Contributors 
 
+- [raphiz](https://github.com/raphiz)
 - [Dezső BICZÓ](https://github.com/mxr576)
 
 ## Credits
